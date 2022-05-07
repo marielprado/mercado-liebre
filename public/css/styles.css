@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-family: roboto, arial; 
+    background-color: #ebebeb
+}
+
+
+.font-yellow { color:#EAC926 }
+.bg-yellow { background-color: #EAC926}
+
+.font-blue { color: #03264C;}
+.bg-blue { background-color: #03264C;}
+
+.font-light-blue { color: #1259c3;}
+.bg-light-blue { background-color: #1259c3;}
+
+.font-dark-grey { color: #666;}
+.bg-dark-grey { background-color: #666;}
+
+.font-light-grey { color: #ebebeb;}
+.bg-light-grey { background-color: #ebebeb;}
+
+.font-green { color: #39b54a;}
+.bg-green { background-color: #39b54a;}
+
+
+.font-heading { font-size: 24px}
+.font-large { font-size: 18px }
+.font-medium { font-size: 16px}
+.font-light { font-size: 12px}
+.font-bold { font-weight: bold }
+.center { text-align: center }
+
+.links  {
+    list-style:none;
+    text-decoration: none;
+    color: black
+}
+
+
+.burger-menu {
+    text-align: center;
+    size: 24px;
+}
+#menu-hamburguesa { 
+    text-align: center;
+    height: 24px;
+    width: 24px;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 20%
+ }
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666
+}
+
+footer {
+    text-align: center;
+}
+ 
+.tamaño-icon { font-size: 2em;}
+.margen-icon { margin-bottom: 2px}
