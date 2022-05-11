@@ -1,5 +1,8 @@
 @media (min-width:769px){
 
 .product-title { display: none }
-.product { box-shadow: none }
+.product { 
+    box-shadow: none;
+    width: 25%
+ }
 }
