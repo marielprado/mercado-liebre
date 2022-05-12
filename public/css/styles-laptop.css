@@ -5,4 +5,12 @@
     box-shadow: none;
     width: 25%
  }
+ .flex-tabl-lapt {
+     display: flex;
+}
+
+.width-tabl-lapt {
+    width: 33.3vw
+}
+
 }

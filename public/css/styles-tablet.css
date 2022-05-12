@@ -3,6 +3,12 @@
 .product { 
  width: 50%   
 }
+.flex-tabl-lapt {
+    display:flex;
+}
 
+.width-tabl-lapt {
+    width: 33.3vw
+}
 }
 
