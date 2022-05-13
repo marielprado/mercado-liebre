@@ -41,6 +41,7 @@ h2 {
 .font-green { color: #39b54a;}
 .bg-green { background-color: #39b54a;}
 
+.font-white {color: white}
 .bg-white { background-color: white }
 
 .font-heading { font-size: 24px}
@@ -62,7 +63,7 @@ h2 {
 .margin-bottom-8 {margin-bottom: 8px}
 .margin-center {margin: center}
 .p-8 { padding:8px }
-.p-0 {padding: 0}
+.p-10 {padding: 10px}
 .border-top-1 {border-top: 1px solid lightgrey }
 
 

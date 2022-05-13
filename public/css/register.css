@@ -1,2 +1,31 @@
 .fx {display:flex}
 .fx-wrap {flex-wrap: wrap}
+.fx-center {align-items: center}
+.fx-align-self {align-self: center}
+.fx-column {flex-direction: column}
+.fx-row {flex-direction:row}
+.m-8 {margin-top: 8px; margin-bottom:8px}
+.mr-5 {margin-right: 5px}
+.ml-5 {margin-left:5px}
+
+.w-80 {width: 80%}
+.w-100 {width: 100%}
+.bold {font-weight: bold}
+
+.form {
+    width: 100%;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px; 
+    color: #666
+}
+
+.button {
+    width: 50%;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px; 
+}
+

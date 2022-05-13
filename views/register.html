@@ -68,34 +68,40 @@
         
         </header>
 
-    <main>
+    <main class="p-8 margin-center">
 
-         <form action="/register" method="POST"> 
-            <input type="text" name="nombre" placeholder="Nombre y apellido">   
-            <input type="text" name="usuario" placeholder="Nombre de usuario">   
-            <input type="email" name="mail" placeholder="E-mail">   
-            <input type="text" name="domicilio" placeholder="Domicilio">   
+        <h2 class="center">Registro</h2>
 
-            <h2>Fecha de nacimiento</h2>
-            <input type="date" name="fecha-nacimiento"> 
+         <form class="fx fx-center fx-wrap" action="/register" method="POST"> 
+            <input class="form m-8" type="text" name="nombre" placeholder="Nombre y apellido">   
+            <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario">   
+            <input class="form m-8" type="email" name="mail" placeholder="E-mail">   
+            <input class="form m-8" type="text" name="domicilio" placeholder="Domicilio">   
+
+            <p class="bold">Fecha de nacimiento</p>
+            <input class="form m-8" type="date" name="fecha-nacimiento"> 
+        
+           
+            <p class="bold">Perfil de usuario</p>
+            <label><input class="m-8" type="radio" name="tipo-usuario" value="comprador">Comprador</label>
+            <label><input class="m-8" type="radio" name="tipo-usuario" value="vendedor">Vendedor</label>
             
-            <h2>Perfil de usuario</h2>
-            <label><input type="radio" name="tipo-usuario" value="comprador">Comprador</label>
-            <label><input type="radio" name="tipo-usuario" value="vendedor">Vendedor</label>
+        <div>
+            <p class="bold">Intereses</p>
+            <label class="p-8 w-100"><input type="checkbox" name="intereses" value="electro">Electro</label>
+            <label class="p-8 w-100"><input type="checkbox" name="intereses" value="moda">Moda</label>
+            <label class="p-8 w-100"><input type="checkbox" name="intereses" value="hogar">Hogar</label>
+            <label class="p-8 w-100"><input type="checkbox" name="intereses" value="juguetería">Juguetería</label>
+            <label class="p-8 w-100"><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
+        </div>
 
-            <h2>Intereses</h2>
-            <label><input type="checkbox" name="intereses" value="electro">Electro</label>
-            <label><input type="checkbox" name="intereses" value="moda">Moda</label>
-            <label><input type="checkbox" name="intereses" value="hogar">Hogar</label>
-            <label><input type="checkbox" name="intereses" value="juguetería">Juguetería</label>
-            <label><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
+            <label class="p-8 m-8">Ingrese su foto de usuario:<input type="file" name="foto" accept=".jpg"></label>   
+            
+            <input class="form m-8" type="password" name="contraseña" placeholder="Contraseña">   
+            <input class="form m-8" type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña">   
 
-            <label>Ingrese su foto de usuario:<input type="file" name="foto" accept=".jpg"></label>   
-            <input type="password" name="contraseña" placeholder="Contraseña">   
-            <input type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña">   
-
-            <button type="submit">Enviar</button>
-            <button type="reset">Borrar</button>
+            <button class="button m-8 bg-light-blue font-light-grey" type="submit">Enviar</button>
+            <button class="button m-8 bg-light-blue font-light-grey" type="reset">Borrar</button>
         </form>
 
 
