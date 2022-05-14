@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mercado Liebre</title>
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    
-        <link rel="stylesheet" href="/css/normalize.css">
-        
-        <link rel="stylesheet" href="/css/styles.css">
-        <link rel="stylesheet" href="/css/styles-tablet.css">
-        <link rel="stylesheet" href="/css/styles-laptop.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
 
-    <body class="bg-light-grey">
-        <header class="bg-yellow p-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="/css/normalize.css">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles-tablet.css">
+    <link rel="stylesheet" href="/css/styles-laptop.css">
+</head>
+
+<body class="bg-light-grey">
+    <header class="bg-yellow p-8">
+    
             <div class="fx-tabl-lapt">
                 <div class="flex">
                     <h1>
@@ -29,7 +29,7 @@
                         <img class="p-8 width-50 width-tabl-lapt" src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre"/>
                         </a>
                     </h1>
-
+        
                 <label class="search-bar flex-center center width-50 width-tabl-lapt">
                     <input type="text" placeholder="Buscar productos, marcas"></input>
                 </label>
@@ -70,63 +70,16 @@
             </div>
         </nav>
         
-        </header>
+    </header>
 
     <main class="p-8 margin-center width-90">
 
-        <h2 class="center m-8 p-20">Creá tu cuenta</h2>
+        <h2 class="center margin-bottom-8 p-20">Ingresá</h2>
 
          <form class="flex flex-wrap" action="/register" method="POST"> 
-            <input class="form m-8" type="text" name="nombre" placeholder="Nombre y apellido">   
-            <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario">   
-            <input class="form m-8" type="email" name="mail" placeholder="E-mail">   
-            <input class="form m-8" type="text" name="domicilio" placeholder="Domicilio">   
-
-            <p class="font-bold m-8">Fecha de nacimiento</p>
-            <input class="form m-8" type="date" name="fecha-nacimiento"> 
-        
-        <div>
-            <p class="font-bold m-8">Perfil de usuario</p>
-            <div class="m-8 width-50">
-                <label><input type="radio" name="tipo-usuario" value="comprador">Comprador</label>
-            </div>
-            <div class="margin-bottom-8">
-            <label><input class="m-8" type="radio" name="tipo-usuario" value="vendedor">Vendedor</label>
-            </div>
-        </div>
-
-        <div>
-            <p class="font-bold m-8">Intereses</p>
-            <div class="m-8 width-50">
-                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="electro">Electro</label>
-            </div>
-            <div class="margin-bottom-8">
-                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="moda">Moda</label>
-            </div>
-            <div class="margin-bottom-8">
-                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="hogar">Hogar</label>
-            </div>
-            <div class="margin-bottom-8">
-                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="juguetería">Juguetería</label>
-            </div>
-                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
-        </div>
-
-            <label class="p-8 m-8 font-bold">Ingrese su foto de usuario:
-                <div class="m-8 width-50">
-                <input type="file" name="foto" accept=".jpg">
-                </div>
-            </label>   
-            
-            <input class="form margin-bottom-8" type="password" name="contraseña" placeholder="Contraseña">   
-            <input class="form m-8" type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña">   
-
-            <div class="flex fx-center fx-center2 width-100 p-20">
-            <button class="button width-50 mr-10 m-8 bg-light-blue font-light-grey" type="submit">Enviar</button>
-            <button class="button width-50 ml-10 m-8 bg-light-blue font-light-grey" type="reset">Borrar</button>
-            </div>
-        </form>
-
+            <input class="form m-10" type="text" name="usuario" placeholder="Nombre de usuario">
+            <input class="form m-10" type="password" name="contraseña" placeholder="Escriba su contraseña">
+            <div class="flex-center center width-100 p-20"><button class="button margin-top-8 margin-bottom-10 bg-light-blue font-light-grey" type="submit">Enviar</button></div>
     </main>
 
     <footer class="p-8">

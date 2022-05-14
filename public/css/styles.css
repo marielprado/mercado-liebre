@@ -61,9 +61,10 @@ h2 {
 
 .margins-auto { margin-left:auto; margin-right:auto; display:block }
 .m-8 {margin-top: 8px; margin-bottom:8px}
+.m-10 {margin-top: 10px; margin-bottom:10px}
 .margins-8 {margin-right: 8px; margin-left: 8px}
-.mr-5 {margin-right: 5px}
-.ml-5 {margin-left:5px}
+.mr-10 {margin-right: 10px}
+.ml-10 {margin-left:10px}
 .margin-top-8 {margin-top: 8px}
 .margin-top-16 {margin-top: 16px}
 .margin-bottom-10 { margin-bottom: 10px }
@@ -74,7 +75,7 @@ h2 {
 .p-10 {padding: 10px}
 .p-20 {padding:20px}
 
-.border-top-1 {border-top: 1px solid lightgrey }
+.border-article {border-top: 1px solid lightgrey }
 
 
 .links  {
@@ -125,6 +126,7 @@ h2 {
 .flex-wrap { display: flex;  flex-wrap: wrap }
 .flex-center {align-self: center; margin: auto}
 .fx-center {align-items: center}
+.fx-center2 {justify-content: center}
 .align-center {align-items: center}
 
 footer {
