@@ -68,11 +68,11 @@
         
         </header>
 
-    <main class="p-8 margin-center">
+    <main class="p-8 margin-center width-90">
 
         <h2 class="center">Registro</h2>
 
-         <form class="flex fx-center flex-wrap" action="/register" method="POST"> 
+         <form class="flex flex-wrap" action="/register" method="POST"> 
             <input class="form m-8" type="text" name="nombre" placeholder="Nombre y apellido">   
             <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario">   
             <input class="form m-8" type="email" name="mail" placeholder="E-mail">   
@@ -81,59 +81,78 @@
             <p class="font-bold">Fecha de nacimiento</p>
             <input class="form m-8" type="date" name="fecha-nacimiento"> 
         
-           
-            <p class="font-bold">Perfil de usuario</p>
-            <label><input class="m-8" type="radio" name="tipo-usuario" value="comprador">Comprador</label>
-            <label><input class="m-8" type="radio" name="tipo-usuario" value="vendedor">Vendedor</label>
-            
         <div>
-            <p class="font-bold">Intereses</p>
-            <label class="p-8 width-100"><input type="checkbox" name="intereses" value="electro">Electro</label>
-            <label class="p-8 width-100"><input type="checkbox" name="intereses" value="moda">Moda</label>
-            <label class="p-8 width-100"><input type="checkbox" name="intereses" value="hogar">Hogar</label>
-            <label class="p-8 width-100"><input type="checkbox" name="intereses" value="juguetería">Juguetería</label>
-            <label class="p-8 width-100"><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
+            <p class="font-bold">Perfil de usuario</p>
+            <div class="m-8 width-50">
+                <label><input type="radio" name="tipo-usuario" value="comprador">Comprador</label>
+            </div>
+            <div class="margin-bottom-8">
+            <label><input class="m-8" type="radio" name="tipo-usuario" value="vendedor">Vendedor</label>
+            </div>
         </div>
 
-            <label class="p-8 m-8">Ingrese su foto de usuario:<input type="file" name="foto" accept=".jpg"></label>   
+        <div>
+            <p class="font-bold">Intereses</p>
+            <div class="m-8 width-50">
+                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="electro">Electro</label>
+            </div>
+            <div class="margin-bottom-8">
+                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="moda">Moda</label>
+            </div>
+            <div class="margin-bottom-8">
+                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="hogar">Hogar</label>
+            </div>
+            <div class="margin-bottom-8">
+                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="juguetería">Juguetería</label>
+            </div>
+                <label class="p-8 width-100"><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
+        </div>
+
+            <label class="p-8 m-8 font-bold">Ingrese su foto de usuario:
+                <div class="m-8 width-50">
+                <input type="file" name="foto" accept=".jpg">
+                </div>
+            </label>   
             
-            <input class="form m-8" type="password" name="contraseña" placeholder="Contraseña">   
+            <input class="form margin-bottom-8" type="password" name="contraseña" placeholder="Contraseña">   
             <input class="form m-8" type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña">   
 
             <button class="button fx-center mr-5 m-8 bg-light-blue font-light-grey" type="submit">Enviar</button>
             <button class="button fx-center ml-5 m-8 bg-light-blue font-light-grey" type="reset">Borrar</button>
+            
         </form>
 
     </main>
 
     <footer class="p-8">
-        <section>
-               <article> 
-               <i class="fas fa-credit-card margen-icon tamaño-icon font-light-blue "></i>
-               <p class="font-bold">Pagá con tarjeta o en efectivo</p>
-               <p>Con Mercado Liebre Cash, tenés cuotas sin interés con
+        <section> 
+            <div class="footer-lapt">
+               <article class="p-20"> 
+               <i class="fas fa-credit-card margin-bottom-10 tamaño-icon font-light-blue "></i>
+               <p class="font-large font-dark-grey font-bold m-8">Pagá con tarjeta o en efectivo</p>
+               <p class="font-dark-grey">Con Mercado Liebre Cash, tenés cuotas sin interés con
                tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
                </article>
    
-               <article>
-               <i class="fas fa-gift margen-icon tamaño-icon font-light-blue"></i>
-               <p class="font-bold">Envíos gratis desde $2.500</p>
-               <p>Solo por estar registrad@ en Mercado Liebre tenés envíos 
+               <article class="p-20">
+               <i class="fas fa-gift margin-bottom-10 tamaño-icon font-light-blue"></i>
+               <p class="font-large font-dark-grey font-bold m-8">Envíos gratis desde $2.500</p>
+               <p class="font-dark-grey">Solo por estar registrad@ en Mercado Liebre tenés envíos 
                gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
                </article>
    
-               <article>
-               <i class="fas fa-user-shield margen-icon tamaño-icon font-light-blue"></i>
-               <p class="font-bold">Seguridad, de principio a fin</p>
-               <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+               <article class="p-20">
+               <i class="fas fa-user-shield margin-bottom-10 tamaño-icon font-light-blue"></i>
+               <p class="font-large font-dark-grey font-bold m-8">Seguridad, de principio a fin</p>
+               <p class="font-dark-grey">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
                hacer, porque estás siempre protegid@.</p>
                </article>
-   
-               <article>
-               <p class="font-bold">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+           </div> 
+           
+               <article class="p-10">
+               <p class="font-mini font-dark-grey flex">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
                </article>
-   
         </section>
-    </footer>
+   </footer>
 </body>
 </html>
