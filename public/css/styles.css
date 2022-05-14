@@ -51,19 +51,27 @@ h2 {
 .font-bold { font-weight: bold }
 
 .center { text-align: center }
+
 .width-100 { width: 100% }
 .width-90 { width: 90% }
 .width-70 {width:70%}
 .width-30 {width:30%}
 .width-50 {width: 50vw}
-.margin-bottom-10 { margin-bottom: 10px }
+
 .margins-auto { margin-left:auto; margin-right:auto; display:block }
+.m-8 {margin-top: 8px; margin-bottom:8px}
+.margins-8 {margin-right: 8px; margin-left: 8px}
+.mr-5 {margin-right: 5px}
+.ml-5 {margin-left:5px}
 .margin-top-8 {margin-top: 8px}
 .margin-top-16 {margin-top: 16px}
+.margin-bottom-10 { margin-bottom: 10px }
 .margin-bottom-8 {margin-bottom: 8px}
 .margin-center {margin: center}
+
 .p-8 { padding:8px }
 .p-10 {padding: 10px}
+
 .border-top-1 {border-top: 1px solid lightgrey }
 
 
@@ -75,7 +83,7 @@ h2 {
 
 .menu-hamburguesa { text-align:center }
 .menu-hamburguesa i { 
-    padding: 8px;
+    padding: 10px;
     color: white;
     background-color: #1259c3;
     border-radius: 20%;
@@ -87,7 +95,7 @@ h2 {
         border-radius: 5px;
         border: 1px;
         font-size: 16px;
-        width: 100%;
+        width: 80%;
  }
 
 .product { 
@@ -110,11 +118,12 @@ h2 {
 }
 .relative {position: relative}
 
+
 .flex { display: flex;}
 .flex-wrap { display: flex;  flex-wrap: wrap }
 .flex-center {align-self: center; margin: auto}
+.fx-center {align-items: center}
 .align-center {align-items: center}
-
 
 footer {
     text-align: center;
@@ -125,4 +134,20 @@ footer {
 .margen-icon { margin-bottom: 2px }
 
 
+/*register & login*/
+.form {
+    width: 100%;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px; 
+    color: #666
+}
 
+.button {
+    width: 45%;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px; 
+}

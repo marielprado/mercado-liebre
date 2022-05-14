@@ -1,15 +1,21 @@
 @media (min-width: 481px){
 
+.menu-hamburguesa {display:none}
+
 .product { 
- width: 50%   
+    box-shadow: none;
+    width: 50%   
 }
 
-.flex-tabl-lapt {
+.fx-tabl-lapt {
     display:flex;
 }
 
 .width-tabl-lapt {
     width: 33.3vw
 }
+
+.fx-space-between {justify-content: space-between}
+
 }
 

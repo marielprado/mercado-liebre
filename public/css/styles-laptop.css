@@ -1,10 +1,15 @@
 @media (min-width:769px){
 
+body { font-size: 16px }
+
+.menu-hamburguesa {display:none}
+
 .product-title { display: none }
 .product { 
     box-shadow: none;
     width: 25%
  }
+
  .flex-tabl-lapt {
      display: flex;
 }
@@ -12,5 +17,7 @@
 .width-tabl-lapt {
     width: 33.3vw
 }
+
+.fx-space-between {justify-content: space-between}
 
 }
