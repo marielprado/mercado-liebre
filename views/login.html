@@ -44,22 +44,22 @@
         
         <nav class="margin-top-8 fx-tabl-lapt fx-space-between">
                 <ul type="none" class="margin-bottom-8 fx-tabl-lapt ">
-                    <li class="margins-8"><a href="#" target="_blank" class="links">Ofertas</a> </li>
-                    <li class="margins-8"> <a href="#" target="_blank" class="links">Tiendas oficiales</a></li>
-                    <li class="margins-8"> <a href="#" target="_blank" class="links">Vender</a> </li>
-                    <li class="margins-8"> <a href="#" target="_blank" class="links">Ayuda</a> </li>
+                    <li class="margins-8" id="link2"><a href="#" class="links">Ofertas</a> </li>
+                    <li class="margins-8" id="link2"> <a href="#" class="links">Tiendas oficiales</a></li>
+                    <li class="margins-8" id="link2"> <a href="#" class="links">Vender</a> </li>
+                    <li class="margins-8" id="link2"> <a href="#" class="links">Ayuda</a> </li>
                 </ul>
         
                 <ul type="none" class="margin-bottom-8 fx-tabl-lapt">
-                    <li class="margins-8"> 
+                    <li class="margins-8" id="link2"> 
                         <a href="/register" class="links">Creá tu cuenta</a>
                         <i class="fas fa-id-card"></i>
                     </li> 
-                    <li class="margins-8"> 
+                    <li class="margins-8" id="link2"> 
                         <a href="/login" class="links">Ingresá</a>
                         <i class="fas fa-sign-in-alt"></i>
                     </li> 
-                    <li class="margins-8"> 
+                    <li class="margins-8" id="link2"> 
                         <a href="#" class="links">Mis compras</a>
                         <i class="fas fa-shopping-basket"></i>
                     </li>
@@ -73,13 +73,22 @@
     </header>
 
     <main class="p-8 margin-center width-90">
+        <section class="flex-wrap fx-center2">
+            <a href="/login" class="links">
+                <h2 class="center p-15 " id="link">Ingresá</h2>
+            </a>
+            <p class="center align-self-center b-20">/</p>
+            <a href="/register" class="links">
+                <h2 class="center p-15 font-medium-grey" id="link">Creá tu cuenta</h2>
+            </a>
+        </section>
 
-        <h2 class="center margin-bottom-8 p-20">Ingresá</h2>
-
-         <form class="flex flex-wrap" action="/register" method="POST"> 
-            <input class="form m-10" type="text" name="usuario" placeholder="Nombre de usuario">
+         <form class="flex flex-wrap fx-center2" action="/" method="GET"> 
+            <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario">   
             <input class="form m-10" type="password" name="contraseña" placeholder="Escriba su contraseña">
-            <div class="flex-center center width-100 p-20"><button class="button margin-top-8 margin-bottom-10 bg-light-blue font-light-grey" type="submit">Enviar</button></div>
+            <div class="flex-center center width-100 p-20">
+                <button class="button margin-top-8 margin-bottom-10 bg-light-blue font-light-grey" id="color" type="submit">Enviar</button>
+            </div>
     </main>
 
     <footer class="p-8">

@@ -44,22 +44,22 @@
         
         <nav class="margin-top-8 fx-tabl-lapt fx-space-between">
                 <ul type="none" class="margin-bottom-8 fx-tabl-lapt ">
-                    <li class="margins-8"><a href="#" target="_blank" class="links">Ofertas</a> </li>
-                    <li class="margins-8"> <a href="#" target="_blank" class="links">Tiendas oficiales</a></li>
-                    <li class="margins-8"> <a href="#" target="_blank" class="links">Vender</a> </li>
-                    <li class="margins-8"> <a href="#" target="_blank" class="links">Ayuda</a> </li>
+                    <li class="margins-8" id="link2"><a href="#" target="_blank" class="links">Ofertas</a> </li>
+                    <li class="margins-8" id="link2"> <a href="#" target="_blank" class="links">Tiendas oficiales</a></li>
+                    <li class="margins-8" id="link2"> <a href="#" target="_blank" class="links">Vender</a> </li>
+                    <li class="margins-8" id="link2"> <a href="#" target="_blank" class="links">Ayuda</a> </li>
                 </ul>
         
                 <ul type="none" class="margin-bottom-8 fx-tabl-lapt">
-                    <li class="margins-8"> 
+                    <li class="margins-8" id="link2"> 
                         <a href="/register" class="links">Creá tu cuenta</a>
                         <i class="fas fa-id-card"></i>
                     </li> 
-                    <li class="margins-8"> 
+                    <li class="margins-8" id="link2"> 
                         <a href="/login" class="links">Ingresá</a>
                         <i class="fas fa-sign-in-alt"></i>
                     </li> 
-                    <li class="margins-8"> 
+                    <li class="margins-8" id="link2"> 
                         <a href="#" class="links">Mis compras</a>
                         <i class="fas fa-shopping-basket"></i>
                     </li>
@@ -74,18 +74,26 @@
 
     <main class="p-8 margin-center width-90">
 
-        <h2 class="center m-8 p-20">Creá tu cuenta</h2>
+        <section class="flex-wrap fx-center2">
+            <a href="/register" class="links">
+                <h2 class="center p-15" id="link">Creá tu cuenta</h2>
+            </a>
+            <p class="center align-self-center b-20">/</p>
+            <a href="/login" class="links">
+                <h2 class="center p-15 font-medium-grey" id="link">Ingresá</h2>
+            </a>
+        </section>
 
-         <form class="flex flex-wrap" action="/register" method="POST"> 
+         <form class="flex flex-wrap fx-center2" action="/" method="GET"> 
             <input class="form m-8" type="text" name="nombre" placeholder="Nombre y apellido">   
             <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario">   
             <input class="form m-8" type="email" name="mail" placeholder="E-mail">   
             <input class="form m-8" type="text" name="domicilio" placeholder="Domicilio">   
-
-            <p class="font-bold m-8">Fecha de nacimiento</p>
+         
+            <p class="font-bold m-8 width-70">Fecha de nacimiento</p>
             <input class="form m-8" type="date" name="fecha-nacimiento"> 
-        
-        <div>
+
+        <div class="width-70">
             <p class="font-bold m-8">Perfil de usuario</p>
             <div class="m-8 width-50">
                 <label><input type="radio" name="tipo-usuario" value="comprador">Comprador</label>
@@ -95,7 +103,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="width-70">
             <p class="font-bold m-8">Intereses</p>
             <div class="m-8 width-50">
                 <label class="p-8 width-100"><input type="checkbox" name="intereses" value="electro">Electro</label>
@@ -112,7 +120,7 @@
                 <label class="p-8 width-100"><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
         </div>
 
-            <label class="p-8 m-8 font-bold">Ingrese su foto de usuario:
+            <label class="p-8 m-8 font-bold width-70">Ingrese su foto de usuario:
                 <div class="m-8 width-50">
                 <input type="file" name="foto" accept=".jpg">
                 </div>
@@ -121,9 +129,9 @@
             <input class="form margin-bottom-8" type="password" name="contraseña" placeholder="Contraseña">   
             <input class="form m-8" type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña">   
 
-            <div class="flex fx-center fx-center2 width-100 p-20">
-            <button class="button width-50 mr-10 m-8 bg-light-blue font-light-grey" type="submit">Enviar</button>
-            <button class="button width-50 ml-10 m-8 bg-light-blue font-light-grey" type="reset">Borrar</button>
+            <div class="flex fx-center fx-center2 width-70 p-20">
+            <button class="button width-50 mr-10 m-8 bg-light-blue font-light-grey" id="color" type="submit">Enviar</button>
+            <button class="button width-50 ml-10 m-8 bg-light-blue font-light-grey" id="color" type="reset">Borrar</button>
             </div>
         </form>
 

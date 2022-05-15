@@ -36,6 +36,7 @@ h2 {
 .bg-dark-grey { background-color: #666;}
 
 .font-light-grey { color: #ebebeb;}
+.font-medium-grey { color: #a29c9c}
 .bg-light-grey { background-color: #ebebeb;}
 
 .font-green { color: #39b54a;}
@@ -55,34 +56,39 @@ h2 {
 
 .width-100 { width: 100% }
 .width-90 { width: 90% }
+.width-80 {width: 80%}
 .width-70 {width:70%}
 .width-30 {width:30%}
 .width-50 {width: 50vw}
 
 .margins-auto { margin-left:auto; margin-right:auto; display:block }
-.m-8 {margin-top: 8px; margin-bottom:8px}
 .m-10 {margin-top: 10px; margin-bottom:10px}
+.m-8 {margin-top: 8px; margin-bottom:8px}
 .margins-8 {margin-right: 8px; margin-left: 8px}
-.mr-10 {margin-right: 10px}
-.ml-10 {margin-left:10px}
 .margin-top-8 {margin-top: 8px}
+.margin-bottom-8 {margin-bottom: 8px}
 .margin-top-16 {margin-top: 16px}
 .margin-bottom-10 { margin-bottom: 10px }
-.margin-bottom-8 {margin-bottom: 8px}
+.mr-10 {margin-right: 10px}
+.ml-10 {margin-left:10px}
 .margin-center {margin: center}
 
-.p-8 { padding:8px }
+.p-8 {padding:8px }
 .p-10 {padding: 10px}
+.p-15 {padding:15px}
 .p-20 {padding:20px}
 
 .border-article {border-top: 1px solid lightgrey }
-
+.b-20 {border-top: 20px; border-bottom: 20px}
 
 .links  {
     list-style:none;
     text-decoration: none;
     color: black
 }
+
+#link:hover {color: #1259c3; text-decoration: underline;}
+#link2:hover {text-decoration:underline}
 
 .menu-hamburguesa { text-align:center }
 .menu-hamburguesa i { 
@@ -122,11 +128,12 @@ h2 {
 .relative {position: relative}
 
 
-.flex { display: flex;}
+.flex {display: flex;}
 .flex-wrap { display: flex;  flex-wrap: wrap }
 .flex-center {align-self: center; margin: auto}
 .fx-center {align-items: center}
 .fx-center2 {justify-content: center}
+.align-self-center {align-self:center}
 .align-center {align-items: center}
 
 footer {
@@ -138,10 +145,10 @@ footer {
 .margen-icon { margin-bottom: 2px }
 
 
-/*register & login*/
+/*REGISTRO Y LOGIN*/
 .form {
-    width: 100%;
-    padding: 4px;
+    width: 70%;
+    padding: 6px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px; 
@@ -150,8 +157,13 @@ footer {
 
 .button {
     width: 45%;
-    padding: 4px;
+    padding: 9px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px; 
+    cursor: pointer;
+}
+
+#color:hover {
+    background-color: #376ab7;
 }
