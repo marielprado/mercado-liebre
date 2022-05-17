@@ -4,8 +4,10 @@
 
 .product { 
     box-shadow: none;
-    width: 50%   
+    width: 50%  ; 
 }
+
+.p-grey {background-color: #ebebeb;}
 
 .fx-tabl-lapt {
     display:flex;
