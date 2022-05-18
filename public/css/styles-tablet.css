@@ -7,8 +7,6 @@
     width: 50%  ; 
 }
 
-.p-grey {background-color: #ebebeb;}
-
 .fx-tabl-lapt {
     display:flex;
 }
@@ -18,6 +16,9 @@
 }
 
 .fx-space-between {justify-content: space-between}
+
+.p-grey {background-color: #ebebeb;}
+
 
 }
 
