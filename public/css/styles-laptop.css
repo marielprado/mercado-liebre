@@ -1,61 +1,61 @@
 @media (min-width:769px){
 
-body { font-size: 16px }
+    body { font-size: 16px }
 
-.menu-hamburguesa {display:none}
-    
-.product-title { 
-    display: none;
-    transition: all 1s
-     }
-    
-.product:hover .product-title { 
-    display: block;
-    color: #666;
-    font-weight: normal;
-    }
-
-.product { 
-    box-shadow: none;
-    width: 25%
-    }
-
-.product:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
-    }
-
-.product:hover .icon-rotation {
-    transform: rotate(-90deg);
-    transition: 1s
-    }
-
-.flex-tabl-lapt {
-    display: flex;
-    }
-
-.fx-space-between {justify-content: space-between}
+    .menu-hamburguesa {display:none}
         
-.width-tabl-lapt {
-    width: 33.3vw
-    }
-    
-.p-grey {padding: 2px; background-color: #ebebeb;}
-.pl-10 {padding-left: 30px}
-.pr-10 {padding-right: 30px}
-       
+    .product-title { 
+        display: none;
+        transition: all 1s
+         }
         
-.footer-lapt{
-    display:flex
-    }
-
-.bigger:hover {
-    font-size: 18px;
-    transition: 1s;
+    .product:hover .product-title { 
+        display: block;
+        color: #666;
+        font-weight: normal;
         }
-
-.bigger:hover .spin {
-    transform: rotate(-360deg);
-    transition: 1s
-}
     
+    .product { 
+        box-shadow: none;
+        width: 25%
+        }
+    
+    .product:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+        }
+    
+    .product:hover .icon-rotation {
+        transform: rotate(-90deg);
+        transition: 1s
+        }
+    
+    .flex-tabl-lapt {
+        display: flex;
+        }
+    
+    .fx-space-between {justify-content: space-between}
+            
+    .width-tabl-lapt {
+        width: 33.3vw
+        }
+        
+    .p-grey {padding: 5px; background-color: #ebebeb;}
+    .pl-10 {padding-left: 30px}
+    .pr-10 {padding-right: 30px}
+           
+            
+    .footer-lapt{
+        display:flex
+        }
+    
+    .bigger:hover {
+        font-size: 18px;
+        transition: 1s;
+            }
+    
+    .bigger:hover .spin {
+        transform: rotate(-360deg);
+        transition: 1s
     }
+        
+        }

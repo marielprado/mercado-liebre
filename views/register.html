@@ -45,7 +45,8 @@
             </div>
         
         
-        <nav class="margin-top-8 fx-tabl-lapt fx-space-between">
+        <nav class="margin-top-8 fx-tabl-lapt fx-space-between hide">
+             
                 <ul type="none" class="margin-bottom-10 pl-10 fx-tabl-lapt">
                     <li class="margins-8" id="link2"><a href="#ofertas" class="links">Ofertas</a> </li>
                     <li class="margins-8" id="link2"> <a href="#" class="links">Tiendas oficiales</a></li>
@@ -67,13 +68,13 @@
                         <i class="fas fa-shopping-basket"></i>
                     </li>
                 </ul>
-        
-            <div class="menu-hamburguesa">
+        </nav>
+            <div class="menu-hamburguesa p-8">
                 <i class="fas fa-bars" ></i>
             </div>
-        </nav>
         
-        </header>
+    </header>
+
     <main>
         
         <section class="flex-wrap fx-center2">
@@ -87,9 +88,12 @@
         </section>
 
          <form class="flex flex-wrap fx-center2" action="/" method="GET"> 
-            <input class="form m-8" type="text" name="nombre" placeholder="Nombre y apellido">   
-            <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario">   
-            <input class="form m-8" type="email" name="mail" placeholder="E-mail">   
+            <input class="form m-8" type="text" name="nombre" placeholder="Nombre y apellido" required> 
+            <span class="error width-70">*Este campo es obligatorio</span>   
+            <input class="form m-8" type="text" name="usuario" placeholder="Nombre de usuario" required> 
+            <span class="error width-70">*Este campo es obligatorio</span>   
+            <input class="form m-8" type="email" name="mail" placeholder="E-mail" required> 
+            <span class="error width-70">*Este campo es obligatorio</span>   
             <input class="form m-8" type="text" name="domicilio" placeholder="Domicilio">   
          
             <p class="font-bold m-8 width-70">Fecha de nacimiento</p>
@@ -121,6 +125,7 @@
             </div>
                 <label class="p-8 width-100"><input type="checkbox" name="intereses" value="vida-sana">Vida sana</label>
         </div>
+        <span class="error width-70">*Debe elegir al menos una opción</span> 
 
             <label class="p-8 m-8 font-bold width-70">Ingrese su foto de usuario:
                 <div class="m-8 width-50">
